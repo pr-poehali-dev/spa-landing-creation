@@ -10,57 +10,54 @@ import { Button } from "@/components/ui/button";
 const Services = () => {
   const services = [
     {
-      title: "Классический массаж",
+      title: "Маникюр",
+      description: "Классический и аппаратный маникюр с покрытием гель-лак",
+      price: "от 1 200 ₽",
+      duration: "60 мин",
+      image:
+        "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=400&h=300&fit=crop",
+    },
+    {
+      title: "Педикюр",
+      description: "Профессиональный педикюр с покрытием и уходом за стопами",
+      price: "от 1 800 ₽",
+      duration: "90 мин",
+      image:
+        "https://images.unsplash.com/photo-1595348020949-87cdfbb44174?w=400&h=300&fit=crop",
+    },
+    {
+      title: "Наращивание ресниц",
       description:
-        "Расслабляющий массаж всего тела с использованием натуральных масел",
-      price: "4 500 ₽",
+        "Классическое и объемное наращивание ресниц премиум материалами",
+      price: "от 2 500 ₽",
+      duration: "120 мин",
+      image:
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
+    },
+    {
+      title: "Массаж",
+      description:
+        "Расслабляющий и лечебный массаж для восстановления и релаксации",
+      price: "от 2 000 ₽",
       duration: "60 мин",
       image:
         "https://images.unsplash.com/photo-1596178060810-4d63d6b5e412?w=400&h=300&fit=crop",
     },
     {
-      title: "Аромотерапия",
-      description: "Глубокое расслабление с эфирными маслами премиум класса",
-      price: "5 200 ₽",
-      duration: "90 мин",
-      image:
-        "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=400&h=300&fit=crop",
-    },
-    {
-      title: "Стоун-терапия",
-      description:
-        "Массаж горячими камнями для глубокого мышечного расслабления",
-      price: "6 800 ₽",
-      duration: "75 мин",
-      image:
-        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
-    },
-    {
-      title: "Гидротерапия",
-      description:
-        "Лечебные ванны с минералами и травами для восстановления сил",
-      price: "3 900 ₽",
-      duration: "45 мин",
-      image:
-        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
-    },
-    {
-      title: "Уход за лицом",
-      description:
-        "Профессиональная косметология с использованием органических средств",
-      price: "7 500 ₽",
+      title: "Косметология лица",
+      description: "Профессиональные процедуры по уходу за кожей лица",
+      price: "от 3 000 ₽",
       duration: "90 мин",
       image:
         "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=400&h=300&fit=crop",
     },
     {
-      title: "Детокс-обертывание",
-      description:
-        "Очищающие обертывания для выведения токсинов и улучшения кожи",
-      price: "5 900 ₽",
-      duration: "60 мин",
+      title: "Окрашивание бровей",
+      description: "Моделирование и окрашивание бровей для идеальной формы",
+      price: "от 800 ₽",
+      duration: "45 мин",
       image:
-        "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1583001931096-959e9a1a6223?w=400&h=300&fit=crop",
     },
   ];
 
@@ -70,7 +67,7 @@ const Services = () => {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">Наши услуги</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Широкий спектр SPA-процедур для полного восстановления и релаксации
+            Полный спектр услуг красоты от профессиональных мастеров
           </p>
         </div>
 

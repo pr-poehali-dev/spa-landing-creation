@@ -5,8 +5,8 @@ const Header = () => {
     <header className="fixed top-0 w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center space-x-2">
-          <span className="text-2xl">🌿</span>
-          <h1 className="text-2xl font-bold text-gray-800">Serenity SPA</h1>
+          <span className="text-2xl">💅</span>
+          <h1 className="text-2xl font-bold text-gray-800">Нарния</h1>
         </div>
 
         <nav className="hidden md:flex space-x-8">

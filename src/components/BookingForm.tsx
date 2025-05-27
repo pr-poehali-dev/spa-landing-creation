@@ -64,12 +64,12 @@ const BookingForm = () => {
                     </label>
                     <select className="w-full h-10 px-3 py-2 text-sm border border-input bg-background rounded-md">
                       <option>Выберите услугу</option>
-                      <option>Классический массаж</option>
-                      <option>Аромотерапия</option>
-                      <option>Стоун-терапия</option>
-                      <option>Гидротерапия</option>
-                      <option>Уход за лицом</option>
-                      <option>Детокс-обертывание</option>
+                      <option>Маникюр</option>
+                      <option>Педикюр</option>
+                      <option>Наращивание ресниц</option>
+                      <option>Массаж</option>
+                      <option>Косметология лица</option>
+                      <option>Окрашивание бровей</option>
                     </select>
                   </div>
                   <div>

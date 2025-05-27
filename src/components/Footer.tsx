@@ -5,12 +5,12 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <span className="text-2xl">🌿</span>
-              <h3 className="text-2xl font-bold">Serenity SPA</h3>
+              <span className="text-2xl">💅</span>
+              <h3 className="text-2xl font-bold">Нарния</h3>
             </div>
             <p className="text-gray-300 mb-4">
-              Премиальный SPA-салон в центре Москвы. Мы создаем атмосферу
-              гармонии и восстановления для вашего полного релакса.
+              Салон красоты в центре Твери. Профессиональные мастера,
+              качественные материалы и индивидуальный подход к каждому клиенту.
             </p>
             <div className="flex space-x-4">
               <a
